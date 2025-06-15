@@ -68,7 +68,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 - The visual output clearly matches the real-world spatial characteristics.
 
 <p><strong>Figure 2:</strong> Front View</p>
-<img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="500", length="400"/>
+<img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="500" length="400"/>
 
 <p><strong>Figure 3:</strong> End View</p>
 <img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="500"/>
