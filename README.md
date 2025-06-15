@@ -29,7 +29,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 | Visualization     | Python, PySerial, Open3D          |
 
 <p><strong>Figure 4:</strong> Setup Image</p>
-<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" width="500"/>
+<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" width="45%"/>
 
 ## Getting Started
 
@@ -67,11 +67,12 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 - Example: A hallway with varying width was successfully visualized, showing a narrow midsection and wider ends.
 - The visual output clearly matches the real-world spatial characteristics.
 
-<p><strong>Figure 2:</strong> Front View</p>
-<img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="500" length="400"/>
 
-<p><strong>Figure 3:</strong> End View</p>
-<img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="500"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="45%" alt="Hallway Start"/>
+  <img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="45%" alt="Side View"/>
+</p>
+
 
 <p><strong>Figure 1:</strong> Scan Result</p>
 <img src="https://github.com/user-attachments/assets/92077979-8699-4f53-9549-289f92a375de" width="500"/>
