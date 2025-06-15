@@ -28,8 +28,9 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 | Communication     | UART @ 115200 bps, I2C for sensor |
 | Visualization     | Python, PySerial, Open3D          |
 
-<p><strong>Figure 4:</strong> Setup Image</p>
-<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="250"/>
+<p align="center"><strong>Figure 4:</strong> Setup Image
+<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="500"/>
+</p>
 
 ## Getting Started
 
