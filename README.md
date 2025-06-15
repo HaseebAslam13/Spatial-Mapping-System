@@ -29,7 +29,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 | Visualization     | Python, PySerial, Open3D          |
 
 <p><strong>Figure 4:</strong> Setup Image</p>
-<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" width="45%"/>
+<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="45%"/>
 
 ## Getting Started
 
@@ -74,7 +74,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 </p>
 
 
-<p><strong>Figure 1:</strong> Scan Result</p>
+<p align="center"><strong>Figure 1:</strong> Scan Result</p>
 <img src="https://github.com/user-attachments/assets/92077979-8699-4f53-9549-289f92a375de" width="500"/>
 
 
