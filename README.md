@@ -36,7 +36,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 </div>
 
 <!-- Right: Image -->
-<div style="flex: 0 0 auto; text-align: center;">
+<div align="right" style="flex: 0 0 auto; text-align: centre;">
   <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="300"/>
   <div><strong>Figure 4:</strong> Setup Image</div>
 </div>
