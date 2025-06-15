@@ -28,6 +28,9 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 | Communication     | UART @ 115200 bps, I2C for sensor |
 | Visualization     | Python, PySerial, Open3D          |
 
+<p><strong>Figure 4:</strong> Setup Image</p>
+<img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" width="500"/>
+
 ## Getting Started
 
 1. Wire the components as described in the schematic.
@@ -35,8 +38,43 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 3. Install Python 3.9+ and required libraries:
    ```bash
    pip install open3d pyserial
+4. Update the Python script with your COM port (e.g., `'COM4'`):
 
-![Screenshot 2025-04-02 143437](https://github.com/user-attachments/assets/92077979-8699-4f53-9549-289f92a375de)
-![shared image (19)](https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b)
-![shared image (20)](https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6)
-![shared image (21)](https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95)
+   Open the Python file and locate the following line:
+   ```python
+   s = serial.Serial('COM4', 115200)
+5. In Keil:
+   - Press **Translate**, then **Build**, and finally **Load** the project.
+   - Press the **Reset** button on the board (next to the USB port) to flash the program.
+
+6. In the Python script:
+   - Update the `ROTATIONS` variable to match the number of revolutions you want the motor to complete (default is 3).
+   - If changing the number of steps per rotation (default 32 for 11.25° intervals), also update:
+     - `STEPS` in the Keil C file
+     - `ANGLE = 360 / STEPS` in Python
+
+7. Run the Python script. It writes the letter `'e'` to the UART interface, triggering the microcontroller. If LED1 (PN1) blinks, communication is successful.
+
+8. Press the on-board button PJ1 to start scanning. The stepper motor will rotate and begin collecting data.
+
+9. After each full revolution, LED3 (PF4) blinks—prompting the user to move forward ~600 mm for the next layer scan.
+
+10. Once the full number of revolutions are completed, the collected data is processed and visualized in 3D using **Open3D**. A new window will open displaying the final model.
+
+## 🖼️ Expected Output
+
+- Accurate 3D point cloud model of the scanned environment.
+- Example: A hallway with varying width was successfully visualized, showing a narrow midsection and wider ends.
+- The visual output clearly matches the real-world spatial characteristics.
+
+<p><strong>Figure 2:</strong> Front View</p>
+<img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="500"/>
+
+<p><strong>Figure 3:</strong> End View</p>
+<img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="500"/>
+
+<p><strong>Figure 1:</strong> Scan Result</p>
+<img src="https://github.com/user-attachments/assets/92077979-8699-4f53-9549-289f92a375de" width="500"/>
+
+
+
