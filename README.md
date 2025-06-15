@@ -18,6 +18,11 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 4. After each full rotation, the user steps forward 600 mm.
 5. All data is sent to the PC in a batch and visualized using Python.
 
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 20px;">
+
+<!-- Left: Table -->
+<div style="flex: 1;">
+  
 ## Components
 
 | Component         | Specs                             |
@@ -28,10 +33,15 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 | Communication     | UART @ 115200 bps, I2C for sensor |
 | Visualization     | Python, PySerial, Open3D          |
 
-<p align="center">
-   <strong>Figure 4:</strong> Setup Image
-   <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="500"/>
-</p>
+</div>
+
+<!-- Right: Image -->
+<div style="flex: 0 0 auto; text-align: center;">
+  <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="300"/>
+  <div><strong>Figure 4:</strong> Setup Image</div>
+</div>
+
+</div>
 
 ## Getting Started
 
@@ -63,7 +73,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 
 10. Once the full number of revolutions are completed, the collected data is processed and visualized in 3D using **Open3D**. A new window will open displaying the final model.
 
-## 🖼️ Expected Output
+## 🖼️ Expected Output 
 
 - Accurate 3D point cloud model of the scanned environment.
 - Example: A hallway with varying width was successfully visualized, showing a narrow midsection and wider ends.
