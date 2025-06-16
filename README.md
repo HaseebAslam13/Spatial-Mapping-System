@@ -37,7 +37,7 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 
 <div align="right" style="flex: 0 0 auto; text-align: centre;">
   <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="300"/>
-  <div><strong>Figure 4:</strong> Setup Image</div>
+  <div><strong>Figure 1:</strong> Setup Image</div>
 </div>
 
 </div>
@@ -80,14 +80,17 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="45%" height="700" alt="Hallway Start"/>
+  <div style="flex: 0 0 auto; text-align: centre;">
+    <img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="45%" height="700" alt="Hallway Start"/>
+    <div><strong>Figure 2:</strong> Front View</div>
+  </div>
   <img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="45%" height="700" alt="Side View"/>
 </p>
 
 
 <div align="center" style="flex: 0 0 auto; text-align: centre;">
   <img src="https://github.com/user-attachments/assets/92077979-8699-4f53-9549-289f92a375de" width="500" alt="Scan Result"/>
-  <div><strong>Figure 4:</strong> Setup Image</div>
+  <div><strong>Figure 4:</strong> Scan Image</div>
 </div>
 
 
