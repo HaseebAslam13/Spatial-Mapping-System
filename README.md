@@ -35,8 +35,8 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 
 </div>
 
-<div align="right" style="flex: 0 0 auto; text-align: centre;">
-  <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="300"/>
+<div style="flex: 0 0 auto; text-align: centre;">
+  <img src="https://github.com/user-attachments/assets/0fa3ba68-80b6-49c3-82b4-f089ae6acf95" height="400"/>
   <div><strong>Figure 1:</strong> Setup Image</div>
 </div>
 
@@ -80,9 +80,9 @@ This project implements a low-cost 3D LiDAR scanning system using the **MSP432E4
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" width="45%" height="700" alt="Hallway Start"/>
+  <img src="https://github.com/user-attachments/assets/d1ef7cc8-810e-4bff-991c-49c142daf00b" height="500" alt="Hallway Start"/>
 
-  <img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" width="45%" height="700" alt="Side View"/>
+  <img src="https://github.com/user-attachments/assets/c4b1fa19-b3db-4a7d-b53d-d50798dbe8e6" height="500" alt="Side View"/>
 
 </p>
 <div align="center"><strong>Figure 2:</strong> Hallway Image</div>
